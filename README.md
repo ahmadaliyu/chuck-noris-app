@@ -4,7 +4,7 @@ A chuck noris joke app
 
 # Prerequisites
 
-Before you can run an Expo project, you will need to have the following software installed:
+Before you can run the Expo project, you will need to have the following software installed:
 
 Node.js: You can download and install Node.js from nodejs.org.
 
