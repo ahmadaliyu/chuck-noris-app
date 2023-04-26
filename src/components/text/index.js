@@ -11,6 +11,12 @@ function AppText({
   lineHeight = 18,
   alignItems,
   textStyle,
+  ml,
+  mr,
+  mb,
+  mt,
+  mh,
+  mv,
   ...otherProps
 }) {
   return (
@@ -21,6 +27,12 @@ function AppText({
         {
           alignItems: alignItems,
           width: width,
+          marginTop: mt,
+          marginBottom: mb,
+          marginHorizontal: mh,
+          marginVertical: mv,
+          marginLeft: ml,
+          marginRight: mr,
           ...otherProps,
         },
       ]}
