@@ -23,8 +23,6 @@ const HomeScreen = ({ navigation: { navigate } }) => {
   const { data, isLoading, error, isError } = useFetchCategoriesQuery();
   const { data: queryData, isFetching } = useSearchJokeQuery(queryString);
 
-  console.log(isFetching);
-
   const handleViewCategories = () => {
     navigate("categories");
   };
