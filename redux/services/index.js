@@ -4,7 +4,8 @@ import { API_URL } from "@env";
 export const chuckNorisApi = createApi({
   reducerPath: "chuckNorisApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: API_URL,
+    // baseUrl: API_URL, // For best practices I use React Native dotenv so as not to expose my api
+    baseUrl: "https://api.chucknorris.io/",
   }),
   endpoints: (builder) => ({
     fetchCategories: builder.query({
