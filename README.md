@@ -6,7 +6,7 @@ A chuck noris joke app
 
 Before you can run the Expo project, you will need to have the following software installed:
 
-Node.js: You can download and install Node.js from nodejs.org.
+Node.js: You can download and install Node.js from [nodejs.org](nodejs.org)
 
 Expo CLI: You can install the Expo CLI by running the following command in your terminal:
 
