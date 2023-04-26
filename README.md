@@ -14,7 +14,7 @@ Expo CLI: You can install the Expo CLI by running the following command in your 
 
 # Getting Started
 
-To get started with an Expo project, you can follow these steps:
+To get started with the Expo project, you can follow these steps:
 
 - Clone the project from the GitHub repository.
 
